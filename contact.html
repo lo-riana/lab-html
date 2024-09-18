@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="assets/images/su_banner.gif" alt="su_banner">
+            <nav id="main-nav">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About Us</a>
+                    </li>
+                    <li>
+                        <a href="services.html">Our Services</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="content">
+            <h2>Contact Us</h2>
+            <form>
+                <fieldset>
+                    <legend>Personal Information:</legend>
+                    <div>
+                        <label for="fN">First name* </label>
+                        <input type="text" id="fN" required maxlength="25" />
+                    </div>
+                    <div>
+                        <label for="lN">Last name* </label>
+                        <input type="text" id="lN" required maxlength="25" />
+                    </div>
+                    <div>
+                        <label for="email">Email* </label>
+                        <input type="email" id="email" required maxlength="35" />
+                    </div>
+                    <div>
+                        <p>Please select the music genre(s) that you like :</p>
+                        <input type="checkbox" id="chbx1" />
+                        <label for="chbx1">Classic</label> <br>
+                        <input type="checkbox" id="chbx2" />
+                        <label for="chbx2">Jazz</label> <br>
+                        <input type="checkbox" id="chbx3" />
+                        <label for="chbx3">Blues</label> <br>
+                        <input type="checkbox" id="chbx4" />
+                        <label for="chbx4">Instrumental</label> <br>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Your Message</legend>
+                    <div>
+                        <label for="select">How did you hear about us?</label>
+                        <select name="select" id="select">
+                        <option value="web">Our Website</option>
+                        <option value="friend">Friends</option>
+                        <option value="tv">TV Adv.</option>
+                        <option value="other">Other</option>
+                    </select>
+                    </div>
+                    <br>
+                    <div>
+                        <label>Would you recommended us to your friends?</label> <br>
+                        <label for="yes">Yes</label>
+                        <input type="radio" id="yes" checked/>
+                        <label for="no">No</label>
+                        <input type="radio" id="no" />
+                        <label for="maybe">Maybe</label>
+                        <input type="radio" id="maybe" />
+                    </div>
+                    <div>
+                        <label for="txt">Maybe You request:</label>
+                        <textarea name="txt" id="txt" rows="4"></textarea>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="chbx5" checked/>
+                        <label for="chbx5"> Sign me up for email updates</label>
+                    </div>
+                    <div>
+                        <input type="submit" value="Register" />
+                    </div>
+                </fieldset>
+            </form>
+
+            <img src="assets/images/four_seasons.png" alt="four_seasons" width="400">
+        </main>
+
+        <footer>
+            <p>
+                Copyright © 2024 ILAC and EFREI Paris – HTML-CSS major lab-work - created by: Loriana RATOVO - All rights reserved
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
